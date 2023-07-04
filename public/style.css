@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(204, 172, 235);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(102, 27, 68);
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#noteForm {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+#noteInput {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 25px;
+  background-color: rgb(102, 27, 68);
+  color: white;
+  border-radius: 5px;
+}
+
+#noteList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#noteSave {
+  display: block;
+  margin: 0 auto;
+  height: 35px;
+  width: 60%;
+  background-color: rgb(233, 184, 233);
+  border: none;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#noteSave:hover {
+  background-color: rgb(102, 27, 68);
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#noteList {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+  height: 30px;
+  width: 90%;
+  /*background-color: rgb(233, 184, 233);
+  border: none;
+  color: black;*/
+  font-size: 16px;
+  cursor: pointer;
+  /*transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);*/
+}
+/* ul {
+  margin-bottom: 30px;
+} */
+
+/* #noteList:hover {
+  background-color: rgb(102, 27, 68);
+  color: white;
+  transform: scale(1.03);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+} */
+
+.noteItem {
+  margin-bottom: 10px;
+}
+
+.noteItem button {
+  margin-left: 10px;
+}

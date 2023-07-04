@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension for saving notes.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["public/script.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "public/index.html",
+    "default_title": "My Extension"
+  }
+}
